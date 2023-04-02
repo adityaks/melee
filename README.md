@@ -1,4 +1,4 @@
-### Coming Soon: Not Released - Development in Process ###
+### Coming Soon: Not Released - Tool Development in Process ###
 
 # MELEE: A Tool to Detect Ransomware Infections in MySQL Instances
 

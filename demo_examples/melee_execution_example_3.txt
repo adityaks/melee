@@ -1,0 +1,23 @@
+$ python3 melee.py 47.111.119.232 3306 root "" check_ransomware_infection
+	--------------------------------------------------------------------
+
+    		    __  ___________    ____________
+ 		   /  |/  / ____/ /   / ____/ ____/
+ 		  / /|_/ / __/ / /   / __/ / __/   
+		 / /  / / /___/ /___/ /___/ /___   
+		/_/  /_/_____/_____/_____/_____/ 
+
+	MELEE : A Tool to Detect Potential Infections in MySQL Deployments !
+        Authored by: Aditya K Sood {https://adityaksood.com} 
+        
+	--------------------------------------------------------------------
+[*] MySQL DB instance is located in: CA
+[*] MySQL DB instance is using timezone: America/Toronto
+[*] MySQL DB geolocation paramters: (45.3155, -75.837) 
+
+[*] Initiating access to the remote MySQL database ....
+[-] Bad handshake error identified. Protocol mismatch could be the reason !
+[-] Reason 1: Using an old version of MySQL on your client to connect to the server with a newer MySQL version.!
+[-] Reason 2: Using a new version of MySQL on your client to connect to the server with an old MySQL version !
+[*] Solution: Use the same version of both client and server for successful execution!
+

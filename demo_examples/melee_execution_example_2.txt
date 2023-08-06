@@ -1,0 +1,62 @@
+$ python3 melee.py 125.132.94.59 3306 root "" check_ransomware_infection
+	--------------------------------------------------------------------
+
+   		    __  ___________    ____________
+ 		   /  |/  / ____/ /   / ____/ ____/
+ 		  / /|_/ / __/ / /   / __/ / __/   
+		 / /  / / /___/ /___/ /___/ /___   
+		/_/  /_/_____/_____/_____/_____/
+
+	MELEE : A Tool to Detect Potential Infections in MySQL Deployments !
+        Authored by: Aditya K Sood {https://adityaksood.com} 
+        
+	--------------------------------------------------------------------
+[*] MySQL DB instance is located in: KR
+[*] MySQL DB instance is using timezone: Asia/Seoul
+[*] MySQL DB geolocation paramters: (37.57, 126.98) 
+
+[*] Initiating access to the remote MySQL database ....
+[*] Activating client to initiate connection:  <mysql.connector.connection_cext.CMySQLConnection object at 0x10b7007c0>
+[*] Connection identifier: 940 
+
+[*] Connected to remote MySQL database hosted at: 125.132.94.59
+[*] SQL mode: 
+[*] MySQL database server time zone: SYSTEM
+[*] MySQL database server version: (5, 5, 28)
+[*] MySQL database server info: 5.5.28
+[*] connected to database:  (None,)
+[*] extracting list of active databases .....
+
+[+] Database detected:  ['information_schema']
+[-] traces of ransomware infections not discovered...
+[+] Database detected:  ['_tmp']
+[-] traces of ransomware infections not discovered...
+[+] Database detected:  ['bugtracker']
+[-] traces of ransomware infections not discovered...
+[+] Database detected:  ['mysql']
+[-] traces of ransomware infections not discovered...
+[+] Database detected:  ['performance_schema']
+[-] traces of ransomware infections not discovered...
+[+] Database detected:  ['xpressengine_db']
+[-] traces of ransomware infections not discovered...
+[+] Database detected:  ['xpressenginedb']
+[-] traces of ransomware infections not discovered...
+[+] Database detected:  ['z_readme_to_recover']
+[+] RANSOMWARE infection has been detected: z_readme_to_recover
+[*] Dumping tables in the database: z_readme_to_recover
+[+] Table: recover_your_data 
+
+[*] Dumping potential ransom message/notification
+
+--------------------------------------------------------------------------------
+[*] Total number of rows detected in the table:  ('recover_your_data', 2) 
+
+[R] ('All your data is a backed up. You must pay 0.3 BTC to 168i2g62fcXwu3GYAJM4FAksxEmNnDjCkm 48 hours for recover it. After 48 hours expiration we will sell all your data on dark markets and the database dump will be dropped from our server!',)
+[R] ('You can buy bitcoin here, https://localbitcoins.com or https://buy.moonpay.io/ After paying write to us in the mail with your DB IP: rambler+2op8@onionmail.org and you will receive a link to download your database dump.',)
+
+--------------------------------------------------------------------------------
+
+[*] Ransomware infection detection module execution completed successfully.
+
+
+[-] MySQL connection terminated successfully.

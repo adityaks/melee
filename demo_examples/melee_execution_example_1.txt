@@ -1,1 +1,55 @@
+$ python3 melee.py 218.48.83.191 3306 root "" check_ransomware_infection
+	--------------------------------------------------------------------
 
+   		    __  ___________    ____________
+ 		   /  |/  / ____/ /   / ____/ ____/
+ 		  / /|_/ / __/ / /   / __/ / __/   
+		 / /  / / /___/ /___/ /___/ /___   
+		/_/  /_/_____/_____/_____/_____/
+
+	MELEE : A Tool to Detect Potential Infections in MySQL Deployments !
+        Authored by: Aditya K Sood {https://adityaksood.com} 
+        
+	--------------------------------------------------------------------
+[*] MySQL DB instance is located in: KR
+[*] MySQL DB instance is using timezone: Asia/Seoul
+[*] MySQL DB geolocation paramters: (37.57, 126.98) 
+
+[*] Initiating access to the remote MySQL database ....
+[*] Activating client to initiate connection: socket info (if any):  None
+[*] Connection identifier: 3396
+[*] Connected to remote MySQL database hosted at: 218.48.83.191
+[*] SQL mode: 
+[*] MySQL database server time zone: SYSTEM
+[*] MySQL database server version: (5, 5, 28)
+[*] MySQL database server info: 5.5.28
+[*] connected to database:  (None,)
+[*] extracting list of active databases .....
+
+[+] Database detected:  ['information_schema']
+[-] traces of ransomware infections not discovered...
+[+] Database detected:  ['_tmp']
+[-] traces of ransomware infections not discovered...
+[+] Database detected:  ['mysql']
+[-] traces of ransomware infections not discovered...
+[+] Database detected:  ['performance_schema']
+[-] traces of ransomware infections not discovered...
+[+] Database detected:  ['please_read_me_vvv']
+[+] RANSOMWARE infection has been detected: please_read_me_vvv
+[*] Dumping tables in the database: please_read_me_vvv
+[+] Table: warning 
+
+[*] Dumping potential ransom message/notification
+
+--------------------------------------------------------------------------------
+[*] Total number of rows detected in the table:  ('warning', 2) 
+
+[R] (1, 'Hello,\n\nI am a security researcher from Sweden, \nhaving interest on web security and other focus areas.\n\nYour database was breached by a 3rd party and\nfiles were backed up to their cloud hosting storage.\n\nI accidently discovered this dedicated cloud storage and was able to secure the files.\n\nIt is scheduled to be sold online.\n\nThe short-term consequences of this data leak could be fees, fines and frustration.\n\nTo prevent this i will remove all files from online storage above\nand restore the database if needed.\n\n\tplease send exactly 0.1 bitcoin (BTC) to the following \n\tbitcoin address: 15FagZemALE7HYnr63pRKghTJP5Kcz5U6j\n\nemail me after the payment confirms(about an hour),\nand I email you back the link to download the original \nbinary dump file created with mysql mydumper.\n\nI will shred the files and terminate their cloud hosting account in 24hrs after the payment.\n\nincidentId: 7dc13c2b-df5a-408c-b98c-c0db5b99d754\nemail: 68932ae2e222@mailinator.com')
+[R] (2, 'To buy bitcoin instantly you can use paxful.com like services.\n\nincidentId: 7dc13c2b-df5a-408c-b98c-c0db5b99d754\nemail: 68932ae2e222@mailinator.com')
+
+--------------------------------------------------------------------------------
+
+[*] Ransomware infection detection module execution completed successfully.
+
+
+[-] MySQL connection terminated successfully.

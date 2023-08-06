@@ -1,0 +1,59 @@
+$ python3 melee.py 5.63.158.211 3306 root root deep_scan_ransomware_infection
+	--------------------------------------------------------------------
+
+
+		    __  ___________    ____________
+ 		   /  |/  / ____/ /   / ____/ ____/
+ 		  / /|_/ / __/ / /   / __/ / __/   
+		 / /  / / /___/ /___/ /___/ /___   
+		/_/  /_/_____/_____/_____/_____/   
+                                   
+
+	MELEE (may.lay) : A Tool to Detect Potential Infections in MySQL Deployments !
+        Authored by: Aditya K Sood {https://adityaksood.com} 
+        
+	--------------------------------------------------------------------
+[*] executing module: deep_scan_ransomware_infection .....
+
+[*] MySQL DB instance is located in: RU
+[*] MySQL DB instance is using timezone: None
+[*] MySQL DB geolocation paramters: (55.75, 37.6166) 
+
+[*] Initiating access to the remote MySQL database ....
+[*] Activating client to initiate connection:  <mysql.connector.connection_cext.CMySQLConnection object at 0x101e1af50>
+[*] Connection identifier: 14149 
+
+[*] Connected to remote MySQL database hosted at: 5.63.158.211
+[*] SQL mode: ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+[*] MySQL database server time zone: SYSTEM
+[*] MySQL database server version: (8, 0, 23)
+[*] MySQL database server info: 8.0.23
+[*] connected to database:  (None,)
+[*] extracting list of active databases .....
+
+[+] Database detected:  ['PLEASE_READ_ME_XMG']
+[+] RANSOMWARE infection has been detected: PLEASE_READ_ME_XMG
+[*] Dumping tables in the database: PLEASE_READ_ME_XMG
+[+] Table: WARNING 
+
+[*] Dumping potential ransom message/notification
+
+--------------------------------------------------------------------------------
+[*] Total number of rows detected in the table:  ('WARNING', 0) 
+
+[-] ransomware message not found, no records obtained in the suspicious table
+[-] potential trace of infected database detected but ransom message missing
+
+--------------------------------------------------------------------------------
+[+] Database detected:  ['information_schema']
+[-] traces of ransomware infections not discovered...
+[+] Database detected:  ['mysql']
+[-] traces of ransomware infections not discovered...
+[+] Database detected:  ['performance_schema']
+[-] traces of ransomware infections not discovered...
+
+[*] Ransomware infection detection module execution completed successfully.
+
+
+[-] MySQL connection terminated successfully.
+

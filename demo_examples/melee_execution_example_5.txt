@@ -1,0 +1,42 @@
+$ python3 melee.py 54.205.121.137 3306 root "" check_ransomware_infection
+	--------------------------------------------------------------------
+
+
+		    __  ___________    ____________
+ 		   /  |/  / ____/ /   / ____/ ____/
+ 		  / /|_/ / __/ / /   / __/ / __/   
+		 / /  / / /___/ /___/ /___/ /___   
+		/_/  /_/_____/_____/_____/_____/   
+                                   
+
+	MELEE (may.lay) : A Tool to Detect Potential Infections in MySQL Deployments !
+        Authored by: Aditya K Sood {https://adityaksood.com} 
+        
+	--------------------------------------------------------------------
+[*] executing module: check_ransomware_infection .....
+
+[*] MySQL DB instance is located in: US
+[*] MySQL DB instance is using timezone: America/New_York
+[*] MySQL DB geolocation paramters: (39.0437, -77.4875) 
+
+[*] Initiating access to the remote MySQL database ....
+[*] Activating client to initiate connection:  <mysql.connector.connection.MySQLConnection object at 0x110def110>
+[*] Connection identifier: 2854679 
+
+[*] Connected to remote MySQL database hosted at: 54.205.121.137
+[*] SQL mode: NO_ENGINE_SUBSTITUTION
+[*] MySQL database server time zone: UTC
+[*] MySQL database server version: (5, 7, 38)
+[*] MySQL database server info: 5.7.38-log
+[*] connected to MySQL database:  (None,)
+[*] extracting list of active databases .....
+
+[+] Database detected:  ['information_schema']
+[-] traces of ransomware infections not discovered...
+[+] Database detected:  ['elms-test']
+[-] traces of ransomware infections not discovered...
+
+[*] Ransomware infection detection module execution completed successfully.
+
+
+[-] MySQL connection terminated successfully.

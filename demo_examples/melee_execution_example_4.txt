@@ -1,0 +1,40 @@
+$ python3 melee.py 120.53.236.149 3306 root "" check_ransomware_infection
+	--------------------------------------------------------------------
+
+    		    __  ___________    ____________
+ 		   /  |/  / ____/ /   / ____/ ____/
+ 		  / /|_/ / __/ / /   / __/ / __/   
+		 / /  / / /___/ /___/ /___/ /___   
+		/_/  /_/_____/_____/_____/_____/ 
+
+	MELEE : A Tool to Detect Potential Infections in MySQL Deployments !
+        Authored by: Aditya K Sood {https://adityaksood.com} 
+        
+	--------------------------------------------------------------------
+[*] MySQL DB instance is located in: CN
+[*] MySQL DB instance is using timezone: Asia/Shanghai
+[*] MySQL DB geolocation paramters: (36.6683, 116.9972) 
+
+[*] Initiating access to the remote MySQL database ....
+[*] Activating client to initiate connection:  <mysql.connector.connection_cext.CMySQLConnection object at 0x10d0f17c0>
+[*] Connection identifier: 15268 
+
+[*] Connected to remote MySQL database hosted at: 120.53.236.149
+[*] SQL mode: STRICT_TRANS_TABLES,NO_ENGINE_SUBSTITUTION
+[*] MySQL database server time zone: SYSTEM
+[*] MySQL database server version: (5, 6, 51)
+[*] MySQL database server info: 5.6.51
+[*] connected to database:  (None,)
+[*] extracting list of active databases .....
+
+[+] Database detected:  ['information_schema']
+[-] traces of ransomware infections not discovered...
+[+] Database detected:  ['Z_README_TO_RECOVER']
+[+] RANSOMWARE infection has been detected: Z_README_TO_RECOVER
+[*] Dumping tables in the database: Z_README_TO_RECOVER
+[+] Table: RECOVER_YOUR_DATA 
+
+[*] Dumping potential ransom message/notification
+
+--------------------------------------------------------------------------------
+[-] Error encountered: 1142 (42000): SELECT command denied to user 'root'@'98.45.158.23' for table 'RECOVER_YOUR_DATA'

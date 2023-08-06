@@ -36,7 +36,7 @@ $ python3 melee.py
         MELEE (may-lay): A Tool to Detect Potential Infections in MySQL Deployments!
         Authored by: Aditya K Sood {https://adityaksood.com} 
         
-	--------------------------------------------------------------------
+	
 
 [*] { MELEE } Tool Usage:
 

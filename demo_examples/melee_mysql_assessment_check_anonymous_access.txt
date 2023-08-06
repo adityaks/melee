@@ -1,0 +1,31 @@
+$ python3 melee.py 23.225.210.189 3306 root root check_anonymous_access
+	--------------------------------------------------------------------
+
+
+		    __  ___________    ____________
+ 		   /  |/  / ____/ /   / ____/ ____/
+ 		  / /|_/ / __/ / /   / __/ / __/   
+		 / /  / / /___/ /___/ /___/ /___   
+		/_/  /_/_____/_____/_____/_____/   
+                                   
+
+	MELEE (may-lay) : A Tool to Detect Potential Infections in MySQL Deployments !
+        Authored by: Aditya K Sood {https://adityaksood.com} 
+        
+	--------------------------------------------------------------------
+[*] executing module: check_anonymous_access .....
+
+[*] MySQL DB instance is located in: US
+[*] MySQL DB instance is using timezone: America/Denver
+[*] MySQL DB geolocation paramters: (41.3274, -104.6664) 
+
+[*] Initiating < ANONYMOUS >  access to the remote MySQL database ....
+[*] MySQL allows ANONYMOUS access..
+
+[*] Connection identifier: 26538
+[*] Connected to remote MySQL database hosted at: 23.225.210.189
+[*] SQL mode: 
+[*] MySQL database server time zone: SYSTEM
+[*] MySQL database server version: (5, 5, 56)
+
+[-] MySQL connection terminated successfully.

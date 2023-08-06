@@ -1,0 +1,22 @@
+$ python3 melee.py 23.225.210.189 3306 root root map_mysql_geoip
+	--------------------------------------------------------------------
+
+
+		    __  ___________    ____________
+ 		   /  |/  / ____/ /   / ____/ ____/
+ 		  / /|_/ / __/ / /   / __/ / __/   
+		 / /  / / /___/ /___/ /___/ /___   
+		/_/  /_/_____/_____/_____/_____/   
+                                   
+
+	MELEE (may-lay) : A Tool to Detect Potential Infections in MySQL Deployments !
+        Authored by: Aditya K Sood {https://adityaksood.com} 
+        
+	--------------------------------------------------------------------
+[*] executing module: map_mysql_geoip .....
+
+[*] MySQL DB instance is located in: US
+[*] MySQL DB instance is using timezone: America/Denver
+[*] MySQL DB geolocation paramters: (41.3274, -104.6664) 
+
+

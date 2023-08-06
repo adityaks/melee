@@ -1,0 +1,41 @@
+$ python3 melee.py 34.90.119.112 3306 root root enum_mysql_db_names
+	--------------------------------------------------------------------
+
+
+		    __  ___________    ____________
+ 		   /  |/  / ____/ /   / ____/ ____/
+ 		  / /|_/ / __/ / /   / __/ / __/   
+		 / /  / / /___/ /___/ /___/ /___   
+		/_/  /_/_____/_____/_____/_____/   
+                                   
+
+	MELEE (may-lay) : A Tool to Detect Potential Infections in MySQL Deployments !
+        Authored by: Aditya K Sood {https://adityaksood.com} 
+        
+	--------------------------------------------------------------------
+[*] executing module: enum_mysql_db_names .....
+
+[*] MySQL DB instance is located in: US
+[*] MySQL DB instance is using timezone: America/Chicago
+[*] MySQL DB geolocation paramters: (29.6997, -95.5858) 
+
+[*] Initiating access to the remote MySQL database ....
+[*] Connection identifier: 578
+[*] Connected to remote MySQL database hosted at: 34.90.119.112
+[*] SQL mode: ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+[*] MySQL database server time zone: SYSTEM
+[*] MySQL database server version: (8, 1, 0)
+[*] MySQL database server info: 8.1.0
+[*] connected to database:  (None,)
+[*] extracting list of active databases .....
+
+[+] Database:  QUARTZ_SCHEMA
+[+] Database:  information_schema
+[+] Database:  mysql
+[+] Database:  performance_schema
+[+] Database:  sys
+
+[*] Database enumeration completed successfully.
+
+
+[-] MySQL connection terminated successfully.

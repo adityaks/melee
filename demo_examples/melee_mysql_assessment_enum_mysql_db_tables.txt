@@ -1,0 +1,391 @@
+$ python3 melee.py 34.90.119.112 3306 root root enum_mysql_db_tables
+	--------------------------------------------------------------------
+
+
+		    __  ___________    ____________
+ 		   /  |/  / ____/ /   / ____/ ____/
+ 		  / /|_/ / __/ / /   / __/ / __/   
+		 / /  / / /___/ /___/ /___/ /___   
+		/_/  /_/_____/_____/_____/_____/   
+                                   
+
+	MELEE (may-lay) : A Tool to Detect Potential Infections in MySQL Deployments !
+        Authored by: Aditya K Sood {https://adityaksood.com} 
+        
+	--------------------------------------------------------------------
+[*] executing module: enum_mysql_db_tables .....
+
+[*] MySQL DB instance is located in: US
+[*] MySQL DB instance is using timezone: America/Chicago
+[*] MySQL DB geolocation paramters: (29.6997, -95.5858) 
+
+[*] Initiating access to the remote MySQL database ....
+[*] Connection identifier: 579
+[*] Connected to remote MySQL database hosted at: 34.90.119.112
+[*] SQL mode: ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+[*] MySQL database server time zone: SYSTEM
+[*] MySQL database server version: (8, 1, 0)
+[*] MySQL database server info: 8.1.0
+[*] connected to database:  (None,)
+[*] extracting list of active databases .....
+
+[*]---------------------------------------------------
+[*] Dumping tables in the database: QUARTZ_SCHEMA
+[*]---------------------------------------------------
+[+] Table: QRTZ_BLOB_TRIGGERS
+[+] Table: QRTZ_CALENDARS
+[+] Table: QRTZ_CRON_TRIGGERS
+[+] Table: QRTZ_FIRED_TRIGGERS
+[+] Table: QRTZ_JOB_DETAILS
+[+] Table: QRTZ_LOCKS
+[+] Table: QRTZ_PAUSED_TRIGGER_GRPS
+[+] Table: QRTZ_SCHEDULER_STATE
+[+] Table: QRTZ_SIMPLE_TRIGGERS
+[+] Table: QRTZ_SIMPROP_TRIGGERS
+[+] Table: QRTZ_TRIGGERS
+[*]---------------------------------------------------
+[*] Dumping tables in the database: information_schema
+[*]---------------------------------------------------
+[+] Table: ADMINISTRABLE_ROLE_AUTHORIZATIONS
+[+] Table: APPLICABLE_ROLES
+[+] Table: CHARACTER_SETS
+[+] Table: CHECK_CONSTRAINTS
+[+] Table: COLLATIONS
+[+] Table: COLLATION_CHARACTER_SET_APPLICABILITY
+[+] Table: COLUMNS
+[+] Table: COLUMNS_EXTENSIONS
+[+] Table: COLUMN_PRIVILEGES
+[+] Table: COLUMN_STATISTICS
+[+] Table: ENABLED_ROLES
+[+] Table: ENGINES
+[+] Table: EVENTS
+[+] Table: FILES
+[+] Table: INNODB_BUFFER_PAGE
+[+] Table: INNODB_BUFFER_PAGE_LRU
+[+] Table: INNODB_BUFFER_POOL_STATS
+[+] Table: INNODB_CACHED_INDEXES
+[+] Table: INNODB_CMP
+[+] Table: INNODB_CMPMEM
+[+] Table: INNODB_CMPMEM_RESET
+[+] Table: INNODB_CMP_PER_INDEX
+[+] Table: INNODB_CMP_PER_INDEX_RESET
+[+] Table: INNODB_CMP_RESET
+[+] Table: INNODB_COLUMNS
+[+] Table: INNODB_DATAFILES
+[+] Table: INNODB_FIELDS
+[+] Table: INNODB_FOREIGN
+[+] Table: INNODB_FOREIGN_COLS
+[+] Table: INNODB_FT_BEING_DELETED
+[+] Table: INNODB_FT_CONFIG
+[+] Table: INNODB_FT_DEFAULT_STOPWORD
+[+] Table: INNODB_FT_DELETED
+[+] Table: INNODB_FT_INDEX_CACHE
+[+] Table: INNODB_FT_INDEX_TABLE
+[+] Table: INNODB_INDEXES
+[+] Table: INNODB_METRICS
+[+] Table: INNODB_SESSION_TEMP_TABLESPACES
+[+] Table: INNODB_TABLES
+[+] Table: INNODB_TABLESPACES
+[+] Table: INNODB_TABLESPACES_BRIEF
+[+] Table: INNODB_TABLESTATS
+[+] Table: INNODB_TEMP_TABLE_INFO
+[+] Table: INNODB_TRX
+[+] Table: INNODB_VIRTUAL
+[+] Table: KEYWORDS
+[+] Table: KEY_COLUMN_USAGE
+[+] Table: OPTIMIZER_TRACE
+[+] Table: PARAMETERS
+[+] Table: PARTITIONS
+[+] Table: PLUGINS
+[+] Table: PROCESSLIST
+[+] Table: PROFILING
+[+] Table: REFERENTIAL_CONSTRAINTS
+[+] Table: RESOURCE_GROUPS
+[+] Table: ROLE_COLUMN_GRANTS
+[+] Table: ROLE_ROUTINE_GRANTS
+[+] Table: ROLE_TABLE_GRANTS
+[+] Table: ROUTINES
+[+] Table: SCHEMATA
+[+] Table: SCHEMATA_EXTENSIONS
+[+] Table: SCHEMA_PRIVILEGES
+[+] Table: STATISTICS
+[+] Table: ST_GEOMETRY_COLUMNS
+[+] Table: ST_SPATIAL_REFERENCE_SYSTEMS
+[+] Table: ST_UNITS_OF_MEASURE
+[+] Table: TABLES
+[+] Table: TABLESPACES
+[+] Table: TABLESPACES_EXTENSIONS
+[+] Table: TABLES_EXTENSIONS
+[+] Table: TABLE_CONSTRAINTS
+[+] Table: TABLE_CONSTRAINTS_EXTENSIONS
+[+] Table: TABLE_PRIVILEGES
+[+] Table: TRIGGERS
+[+] Table: USER_ATTRIBUTES
+[+] Table: USER_PRIVILEGES
+[+] Table: VIEWS
+[+] Table: VIEW_ROUTINE_USAGE
+[+] Table: VIEW_TABLE_USAGE
+[*]---------------------------------------------------
+[*] Dumping tables in the database: mysql
+[*]---------------------------------------------------
+[+] Table: columns_priv
+[+] Table: component
+[+] Table: db
+[+] Table: default_roles
+[+] Table: engine_cost
+[+] Table: func
+[+] Table: general_log
+[+] Table: global_grants
+[+] Table: gtid_executed
+[+] Table: help_category
+[+] Table: help_keyword
+[+] Table: help_relation
+[+] Table: help_topic
+[+] Table: innodb_index_stats
+[+] Table: innodb_table_stats
+[+] Table: ndb_binlog_index
+[+] Table: password_history
+[+] Table: plugin
+[+] Table: procs_priv
+[+] Table: proxies_priv
+[+] Table: replication_asynchronous_connection_failover
+[+] Table: replication_asynchronous_connection_failover_managed
+[+] Table: replication_group_configuration_version
+[+] Table: replication_group_member_actions
+[+] Table: role_edges
+[+] Table: server_cost
+[+] Table: servers
+[+] Table: slave_master_info
+[+] Table: slave_relay_log_info
+[+] Table: slave_worker_info
+[+] Table: slow_log
+[+] Table: tables_priv
+[+] Table: time_zone
+[+] Table: time_zone_leap_second
+[+] Table: time_zone_name
+[+] Table: time_zone_transition
+[+] Table: time_zone_transition_type
+[+] Table: user
+[*]---------------------------------------------------
+[*] Dumping tables in the database: performance_schema
+[*]---------------------------------------------------
+[+] Table: accounts
+[+] Table: binary_log_transaction_compression_stats
+[+] Table: cond_instances
+[+] Table: data_lock_waits
+[+] Table: data_locks
+[+] Table: error_log
+[+] Table: events_errors_summary_by_account_by_error
+[+] Table: events_errors_summary_by_host_by_error
+[+] Table: events_errors_summary_by_thread_by_error
+[+] Table: events_errors_summary_by_user_by_error
+[+] Table: events_errors_summary_global_by_error
+[+] Table: events_stages_current
+[+] Table: events_stages_history
+[+] Table: events_stages_history_long
+[+] Table: events_stages_summary_by_account_by_event_name
+[+] Table: events_stages_summary_by_host_by_event_name
+[+] Table: events_stages_summary_by_thread_by_event_name
+[+] Table: events_stages_summary_by_user_by_event_name
+[+] Table: events_stages_summary_global_by_event_name
+[+] Table: events_statements_current
+[+] Table: events_statements_histogram_by_digest
+[+] Table: events_statements_histogram_global
+[+] Table: events_statements_history
+[+] Table: events_statements_history_long
+[+] Table: events_statements_summary_by_account_by_event_name
+[+] Table: events_statements_summary_by_digest
+[+] Table: events_statements_summary_by_host_by_event_name
+[+] Table: events_statements_summary_by_program
+[+] Table: events_statements_summary_by_thread_by_event_name
+[+] Table: events_statements_summary_by_user_by_event_name
+[+] Table: events_statements_summary_global_by_event_name
+[+] Table: events_transactions_current
+[+] Table: events_transactions_history
+[+] Table: events_transactions_history_long
+[+] Table: events_transactions_summary_by_account_by_event_name
+[+] Table: events_transactions_summary_by_host_by_event_name
+[+] Table: events_transactions_summary_by_thread_by_event_name
+[+] Table: events_transactions_summary_by_user_by_event_name
+[+] Table: events_transactions_summary_global_by_event_name
+[+] Table: events_waits_current
+[+] Table: events_waits_history
+[+] Table: events_waits_history_long
+[+] Table: events_waits_summary_by_account_by_event_name
+[+] Table: events_waits_summary_by_host_by_event_name
+[+] Table: events_waits_summary_by_instance
+[+] Table: events_waits_summary_by_thread_by_event_name
+[+] Table: events_waits_summary_by_user_by_event_name
+[+] Table: events_waits_summary_global_by_event_name
+[+] Table: file_instances
+[+] Table: file_summary_by_event_name
+[+] Table: file_summary_by_instance
+[+] Table: global_status
+[+] Table: global_variables
+[+] Table: host_cache
+[+] Table: hosts
+[+] Table: innodb_redo_log_files
+[+] Table: keyring_component_status
+[+] Table: keyring_keys
+[+] Table: log_status
+[+] Table: memory_summary_by_account_by_event_name
+[+] Table: memory_summary_by_host_by_event_name
+[+] Table: memory_summary_by_thread_by_event_name
+[+] Table: memory_summary_by_user_by_event_name
+[+] Table: memory_summary_global_by_event_name
+[+] Table: metadata_locks
+[+] Table: mutex_instances
+[+] Table: objects_summary_global_by_type
+[+] Table: performance_timers
+[+] Table: persisted_variables
+[+] Table: prepared_statements_instances
+[+] Table: processlist
+[+] Table: replication_applier_configuration
+[+] Table: replication_applier_filters
+[+] Table: replication_applier_global_filters
+[+] Table: replication_applier_status
+[+] Table: replication_applier_status_by_coordinator
+[+] Table: replication_applier_status_by_worker
+[+] Table: replication_asynchronous_connection_failover
+[+] Table: replication_asynchronous_connection_failover_managed
+[+] Table: replication_connection_configuration
+[+] Table: replication_connection_status
+[+] Table: replication_group_member_stats
+[+] Table: replication_group_members
+[+] Table: rwlock_instances
+[+] Table: session_account_connect_attrs
+[+] Table: session_connect_attrs
+[+] Table: session_status
+[+] Table: session_variables
+[+] Table: setup_actors
+[+] Table: setup_consumers
+[+] Table: setup_instruments
+[+] Table: setup_objects
+[+] Table: setup_threads
+[+] Table: socket_instances
+[+] Table: socket_summary_by_event_name
+[+] Table: socket_summary_by_instance
+[+] Table: status_by_account
+[+] Table: status_by_host
+[+] Table: status_by_thread
+[+] Table: status_by_user
+[+] Table: table_handles
+[+] Table: table_io_waits_summary_by_index_usage
+[+] Table: table_io_waits_summary_by_table
+[+] Table: table_lock_waits_summary_by_table
+[+] Table: threads
+[+] Table: tls_channel_status
+[+] Table: user_defined_functions
+[+] Table: user_variables_by_thread
+[+] Table: users
+[+] Table: variables_by_thread
+[+] Table: variables_info
+[*]---------------------------------------------------
+[*] Dumping tables in the database: sys
+[*]---------------------------------------------------
+[+] Table: host_summary
+[+] Table: host_summary_by_file_io
+[+] Table: host_summary_by_file_io_type
+[+] Table: host_summary_by_stages
+[+] Table: host_summary_by_statement_latency
+[+] Table: host_summary_by_statement_type
+[+] Table: innodb_buffer_stats_by_schema
+[+] Table: innodb_buffer_stats_by_table
+[+] Table: innodb_lock_waits
+[+] Table: io_by_thread_by_latency
+[+] Table: io_global_by_file_by_bytes
+[+] Table: io_global_by_file_by_latency
+[+] Table: io_global_by_wait_by_bytes
+[+] Table: io_global_by_wait_by_latency
+[+] Table: latest_file_io
+[+] Table: memory_by_host_by_current_bytes
+[+] Table: memory_by_thread_by_current_bytes
+[+] Table: memory_by_user_by_current_bytes
+[+] Table: memory_global_by_current_bytes
+[+] Table: memory_global_total
+[+] Table: metrics
+[+] Table: processlist
+[+] Table: ps_check_lost_instrumentation
+[+] Table: schema_auto_increment_columns
+[+] Table: schema_index_statistics
+[+] Table: schema_object_overview
+[+] Table: schema_redundant_indexes
+[+] Table: schema_table_lock_waits
+[+] Table: schema_table_statistics
+[+] Table: schema_table_statistics_with_buffer
+[+] Table: schema_tables_with_full_table_scans
+[+] Table: schema_unused_indexes
+[+] Table: session
+[+] Table: session_ssl_status
+[+] Table: statement_analysis
+[+] Table: statements_with_errors_or_warnings
+[+] Table: statements_with_full_table_scans
+[+] Table: statements_with_runtimes_in_95th_percentile
+[+] Table: statements_with_sorting
+[+] Table: statements_with_temp_tables
+[+] Table: sys_config
+[+] Table: user_summary
+[+] Table: user_summary_by_file_io
+[+] Table: user_summary_by_file_io_type
+[+] Table: user_summary_by_stages
+[+] Table: user_summary_by_statement_latency
+[+] Table: user_summary_by_statement_type
+[+] Table: version
+[+] Table: wait_classes_global_by_avg_latency
+[+] Table: wait_classes_global_by_latency
+[+] Table: waits_by_host_by_latency
+[+] Table: waits_by_user_by_latency
+[+] Table: waits_global_by_latency
+[+] Table: x$host_summary
+[+] Table: x$host_summary_by_file_io
+[+] Table: x$host_summary_by_file_io_type
+[+] Table: x$host_summary_by_stages
+[+] Table: x$host_summary_by_statement_latency
+[+] Table: x$host_summary_by_statement_type
+[+] Table: x$innodb_buffer_stats_by_schema
+[+] Table: x$innodb_buffer_stats_by_table
+[+] Table: x$innodb_lock_waits
+[+] Table: x$io_by_thread_by_latency
+[+] Table: x$io_global_by_file_by_bytes
+[+] Table: x$io_global_by_file_by_latency
+[+] Table: x$io_global_by_wait_by_bytes
+[+] Table: x$io_global_by_wait_by_latency
+[+] Table: x$latest_file_io
+[+] Table: x$memory_by_host_by_current_bytes
+[+] Table: x$memory_by_thread_by_current_bytes
+[+] Table: x$memory_by_user_by_current_bytes
+[+] Table: x$memory_global_by_current_bytes
+[+] Table: x$memory_global_total
+[+] Table: x$processlist
+[+] Table: x$ps_digest_95th_percentile_by_avg_us
+[+] Table: x$ps_digest_avg_latency_distribution
+[+] Table: x$ps_schema_table_statistics_io
+[+] Table: x$schema_flattened_keys
+[+] Table: x$schema_index_statistics
+[+] Table: x$schema_table_lock_waits
+[+] Table: x$schema_table_statistics
+[+] Table: x$schema_table_statistics_with_buffer
+[+] Table: x$schema_tables_with_full_table_scans
+[+] Table: x$session
+[+] Table: x$statement_analysis
+[+] Table: x$statements_with_errors_or_warnings
+[+] Table: x$statements_with_full_table_scans
+[+] Table: x$statements_with_runtimes_in_95th_percentile
+[+] Table: x$statements_with_sorting
+[+] Table: x$statements_with_temp_tables
+[+] Table: x$user_summary
+[+] Table: x$user_summary_by_file_io
+[+] Table: x$user_summary_by_file_io_type
+[+] Table: x$user_summary_by_stages
+[+] Table: x$user_summary_by_statement_latency
+[+] Table: x$user_summary_by_statement_type
+[+] Table: x$wait_classes_global_by_avg_latency
+[+] Table: x$wait_classes_global_by_latency
+[+] Table: x$waits_by_host_by_latency
+[+] Table: x$waits_by_user_by_latency
+[+] Table: x$waits_global_by_latency
+
+[*] Table enumeration completed successfully.
+
+
+[-] MySQL connection terminated successfully.

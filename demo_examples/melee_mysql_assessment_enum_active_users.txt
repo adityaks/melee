@@ -1,0 +1,51 @@
+$ python3 melee.py 34.90.119.112 3306 root root enum_active_users
+	--------------------------------------------------------------------
+
+
+		    __  ___________    ____________
+ 		   /  |/  / ____/ /   / ____/ ____/
+ 		  / /|_/ / __/ / /   / __/ / __/   
+		 / /  / / /___/ /___/ /___/ /___   
+		/_/  /_/_____/_____/_____/_____/   
+                                   
+
+	MELEE (may-lay) : A Tool to Detect Potential Infections in MySQL Deployments !
+        Authored by: Aditya K Sood {https://adityaksood.com} 
+        
+	--------------------------------------------------------------------
+[*] executing module: enum_active_users .....
+
+[*] MySQL DB instance is located in: US
+[*] MySQL DB instance is using timezone: America/Chicago
+[*] MySQL DB geolocation paramters: (29.6997, -95.5858) 
+
+[*] Initiating access to the remote MySQL database ....
+[*] Connection identifier: 577
+[*] Connected to remote MySQL database hosted at: 34.90.119.112
+[*] SQL mode: ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+[*] MySQL database server time zone: SYSTEM
+[*] MySQL database server version: (8, 1, 0)
+[*] MySQL database server info: 8.1.0
+[*] connected to database:  (None,)
+[*] extracting list of logged-in users and hosts from information_schema database .....
+
+[*]--------------------------------------------------------------------------
+[*] Dumping logged-in users in the information_schema database if exists ....
+[*]--------------------------------------------------------------------------
+[+] User:Host root 10.0.19.16:37804
+[+] User:Host root 10.0.19.16:51678
+[+] User:Host root 10.0.15.219:17993
+[+] User:Host root 10.0.19.16:41576
+[+] User:Host root 10.0.19.16:49820
+[+] User:Host root 10.0.19.16:36408
+[+] User:Host root 10.0.19.16:37502
+[+] User:Host event_scheduler localhost
+[+] User:Host root 10.0.19.16:47160
+[+] User:Host root 10.0.19.16:53732
+[+] User:Host root 10.0.19.16:37114
+[+] User:Host root 10.0.19.16:35618
+
+[*] User enumeration completed successfully.
+
+
+[-] MySQL connection terminated successfully.

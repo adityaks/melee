@@ -1,0 +1,22 @@
+------ [ MySQL Database.Table ] -----------
+----- Ransomware Infections Indicator -----
+-------------------------------------------
+
+Z_README_TO_RECOVER.RECOVER_YOUR_DATA
+z_readme_to_recover.recover_your_data
+GODRANSOM.GODRANSOM
+elms-test.README
+app.GODRANSOM
+README_ADK.READMEi
+netams.GODRANSOM_U_GOT_PWNED
+PLEASE_READ_ME_RTG.README 
+please_read_me_vvv.warning
+README_UZM.README
+README_SZF.README
+README_HSX.README
+PLEASE_READ_ME_XMG.WARNING
+GODRANSOM_U_GOT_PWNED
+please_read_me_vvv.warning
+RECOVER_DATABASE_HSA.README
+RECOVER_DATABASE_HSA.README_godransom
+PLEASE_READ_ME_VVV.WARNING

@@ -3,6 +3,9 @@
 # MELEE: A Tool to Detect Ransomware Infections in MySQL Instances
 
 
+![Screenshot](melee_blackhat_usa_arsenal_2023.jpeg)
+
+
 ![Screenshot](melee.png)
 
 Attackers are abusing MySQL instances for conducting nefarious operations on the Internet. The cybercriminals are targeting exposed MySQL instances and triggering infections at scale to exfiltrate data, destruct data, and extort money via ransom. For example one of the significant threats MySQL deployments face is ransomware. We have authored a tool named "MELEE" to detect potential infections in MySQL instances. The tool allows security researchers, penetration testers, and threat intelligence experts to detect compromised and infected MySQL instances running malicious code. The tool also enables you to conduct efficient research in the field of malware targeting cloud databases. In this release of the tool, the following modules are supported:

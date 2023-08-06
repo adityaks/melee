@@ -1,0 +1,127 @@
+--------------------------------------------------------------------
+MELEE TOOL    
+
+(C) Aditya K Sood (https://adityaksood.com)
+--------------------------------------------------------------------
+-------- [ Notes ] -------------------------------------------------
+
+* Developed using the following python version:
+
+$ python3
+Python 3.9.6 (default, Sep 26 2022, 11:37:49) 
+[Clang 14.0.0 (clang-1400.0.29.202)] on darwin
+
+
+* Mysql.connector library is used
+-------------------------------------------------
+
+* Maxmind - geoip - geolite2 library used. Should be installed on ptyhon3 framework using following packages:
+
+- python-geoip-geolite2
+- python-geoip-python3
+
+$ python3 -m pip install python-geoip-geolite2
+Defaulting to user installation because normal site-packages is not writeable
+Collecting python-geoip-geolite2
+  Using cached python_geoip_geolite2-2015.303-py3-none-any.whl
+Collecting python-geoip
+  Using cached python_geoip-1.2-py3-none-any.whl
+Installing collected packages: python-geoip, python-geoip-geolite2
+Successfully installed python-geoip-1.2 python-geoip-geolite2-2015.303
+
+$ python3 -m pip install python-geoip-python3
+Defaulting to user installation because normal site-packages is not writeable
+Collecting python-geoip-python3
+  Using cached python_geoip_python3-1.3-py2.py3-none-any.whl (7.4 kB)
+Installing collected packages: python-geoip-python3
+Successfully installed python-geoip-python3-1.3
+
+$ python3 -m pip3 install maxminddb 
+$ python3 -m pip3 install maxminddb-geolite2
+
+
+apt install python3-pip
+pip3 install maxminddb 
+pip3 install maxminddb-geolite2
+---------------------------------------------------------------------------------------------------
+
+* Bad Handshake Error
+
+When starting a new connection to MySQL database, all database credentials are correct, then you get an error saying “Bad Handshake when trying to connect”.
+
+This is likely because of the version mismatch of MySQL server that leads to the failed authentication. You are either:
+
+Using an old version of MySQL on your client to connect to the server with a newer MySQL version.
+Using a new version of MySQL on your client to connect to the server with an old MySQL version.
+The newer MySQL versions might use a different protocol for the connection, thus causes the bad handshake issue when there’s a version mismatch.
+
+---------------------------------------------------------------------------------------------------
+
+* [-] Error encountered: Authentication plugin 'caching_sha2_password' is not supported
+
+Resolve:
+
+$ pip install mysql-connector-python
+Collecting mysql-connector-python
+  Downloading mysql_connector_python-8.0.33-cp311-cp311-macosx_12_0_x86_64.whl (8.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.9/8.9 MB 15.2 MB/s eta 0:00:00
+Collecting protobuf<=3.20.3,>=3.11.0 (from mysql-connector-python)
+  Downloading protobuf-3.20.3-py2.py3-none-any.whl (162 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 162.1/162.1 kB 10.1 MB/s eta 0:00:00
+Installing collected packages: protobuf, mysql-connector-python
+Successfully installed mysql-connector-python-8.0.33 protobuf-3.20.3
+
+---------------------------------------------------------------------------------------------------
+
+* SELECT command denied to the user
+* [-] Error encountered: 1142 (42000): SELECT command denied to user 'root'@'98.45.158.23' for table 'RECOVER_YOUR_DATA'
+
+---------------------------------------------------------------------------------------------------
+
+* MySQL Supported methods
+
+Constructor connection.MySQLConnection(**kwargs)
+Method MySQLConnection.close()
+Method MySQLConnection.config(**kwargs)
+Method MySQLConnection.connect(**kwargs)
+Method MySQLConnection.commit()
+Method MySQLConnection.cursor(buffered=None, raw=None, cursor_class=None)
+Method MySQLConnection.cmd_change_user(username='', password='', database='', charset=33)
+Method MySQLConnection.cmd_debug()
+Method MySQLConnection.cmd_init_db(database)
+Method MySQLConnection.cmd_ping()
+Method MySQLConnection.cmd_process_info()
+Method MySQLConnection.cmd_process_kill(mysql_pid)
+Method MySQLConnection.cmd_quit()
+Method MySQLConnection.cmd_query(statement)
+Method MySQLConnection.cmd_query_iter(statement)
+Method MySQLConnection.cmd_refresh(options)
+Method MySQLConnection.cmd_shutdown()
+Method MySQLConnection.cmd_statistics()
+Method MySQLConnection.disconnect()
+Method MySQLConnection.get_rows(count=None)
+Method MySQLConnection.get_row()
+Method MySQLConnection.get_server_info()
+Method MySQLConnection.get_server_version()
+Method MySQLConnection.is_connected()
+Method MySQLConnection.isset_client_flag(flag)
+Method MySQLConnection.ping(attempts=1, delay=0)
+Method MySQLConnection.reconnect(attempts=1, delay=0)
+Method MySQLConnection.rollback()
+Method MySQLConnection.set_charset_collation(charset=None, collation=None)
+Method MySQLConnection.set_client_flags(flags)
+Method MySQLConnection.start_transaction()
+Property MySQLConnection.autocommit
+Property MySQLConnection.charset_name
+Property MySQLConnection.collation_name
+Property MySQLConnection.connection_id
+Property MySQLConnection.database
+Property MySQLConnection.get_warnings
+Property MySQLConnection.in_transaction
+Property MySQLConnection.raise_on_warnings
+Property MySQLConnection.server_host
+Property MySQLConnection.server_port
+Property MySQLConnection.sql_mode
+Property MySQLConnection.time_zone
+Property MySQLConnection.unix_socket
+Property MySQLConnection.user 

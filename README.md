@@ -18,3 +18,10 @@ Attackers are abusing MySQL instances for conducting nefarious operations on the
 * Extensive assessment checks for extracting insidious details about potential ransomware infections
 * MySQL honeypot detection 
 * MySQL ransomware detection and scanning for both unauthenticated and authenticated deployments
+
+
+--------------
+
+Researched and Developed By Aditya K Sood and Rohit Bansal 
+
+--------------

@@ -22,6 +22,7 @@ Attackers are abusing MySQL instances for conducting nefarious operations on the
 
 ## Tool Usage
 
+```
 $ python3 melee.py 
 	--------------------------------------------------------------------
 
@@ -36,7 +37,7 @@ $ python3 melee.py
         MELEE (may-lay): A Tool to Detect Potential Infections in MySQL Deployments!
         Authored by: Aditya K Sood {https://adityaksood.com} 
         
-	
+	--------------------------------------------------------------------
 
 [*] { MELEE } Tool Usage:
 
@@ -62,7 +63,7 @@ $ python3 melee.py
      - for the anonymous access module, do not supply any password with a username
      - for weak authentication credentials, use combinations such as <root:root>, or other combinations
 
---------------------------------------------------------------------
+```
 
 --------------
 

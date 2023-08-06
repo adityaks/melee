@@ -1,10 +1,9 @@
-### Coming Soon: Not Released - Tool Development in Process ###
-
 # MELEE: A Tool to Detect Ransomware Infections in MySQL Instances
 
 
 ![Screenshot](melee_blackhat_usa_arsenal_2023.jpeg)
 
+______________________________________________________________________________________________________________________
 
 ![Screenshot](melee.png)
 

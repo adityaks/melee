@@ -33,7 +33,7 @@ $ python3 melee.py
         /_/  /_/_____/_____/_____/_____/   
                                    
 
-    MELEE (may-lay) : A Tool to Detect Potential Infections in MySQL Deployments !
+        MELEE (may-lay): A Tool to Detect Potential Infections in MySQL Deployments!
         Authored by: Aditya K Sood {https://adityaksood.com} 
         
 	--------------------------------------------------------------------
@@ -44,24 +44,25 @@ $ python3 melee.py
 
 [*] usage: melee.py  <mysql host (local or remote)> <mysql service port> <mysql username> <mysql password> <module>
 [*] MELEE supported modules:
-     - map_mysql_geoip: map the geoip presence of the MySQL host
-     - check_anonymous_access: verify iif the remote MySQL host has anonymous access
+     - map_mysql_geoip: map the GeoIP presence of the MySQL host
+     - check_anonymous_access: verify if the remote MySQL host has anonymous access
      - enum_mysql_db_names: enumerate all the available MySQL databases
      - enum_mysql_db_tables: enumerate all the tables in active databases
-     - enum_mysql_db_users: enumerate all the user names related to mysql database (mysql.user) only
-     - enum_active_users: enumerate all the logged-in users (information_schema.processlist) only
-     - check_ransomware_infection: detect potential ransomware infection
-     - deep_scan_ransomware_infection: launch deep scan to extract infected resources and ransom message
+     - enum_mysql_db_users: enumerate all the user names related to MySQL database (MySQL user) only
+     - enum_active_users: enumerate all the logged-in users (information_schema.process list) only
+     - check_ransomware_infection: detect a potential ransomware infection
+     - deep_scan_ransomware_infection: launch a deep scan to extract infected resources and a ransom message
 
 [*] example: melee.py 99.34.123.xxx 3306 root root check_ransomware_infection
 [*] example: melee.py 89.34.451.xxx 3306 root "" deep_scan_ransomware_infection
 
 
 [*] tool considerations:
-     - for ransom message analysis, file is dumped to local directory with <mysql_host>_ransom_message.txt
-     - for anonymous access module, do not supply any password with username
-     - for weak authentication credentials, use combinations as root:root, or other combinations
+     - for ransom message analysis, the file is dumped to the local directory with <mysql_host>_ransom_message.txt
+     - for the anonymous access module, do not supply any password with a username
+     - for weak authentication credentials, use combinations such as <root:root>, or other combinations
 
+--------------------------------------------------------------------
 
 --------------
 
